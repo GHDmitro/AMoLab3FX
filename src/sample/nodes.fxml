@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Controller3">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="300.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="55.0" prefWidth="302.0" text="Впишите количесво узлов для основной функции" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="fieldNode" alignment="CENTER" prefHeight="52.0" prefWidth="300.0" promptText="node`s capasity">
+               <VBox.margin>
+                  <Insets left="50.0" right="50.0" top="5.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="btnNodeCap" defaultButton="true" mnemonicParsing="false" onAction="#actionNodeCap" prefHeight="42.0" prefWidth="200.0" text="Ok" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="50.0" right="50.0" top="20.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</Pane>

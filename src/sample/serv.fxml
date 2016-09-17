@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="235.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Controller2">
+   <children>
+      <HBox layoutY="34.0" prefHeight="205.0" prefWidth="327.0">
+         <children>
+            <VBox prefHeight="190.0" prefWidth="80.0">
+               <children>
+                  <Button fx:id="btnOk" defaultButton="true" mnemonicParsing="false" onAction="#actionSave" prefHeight="27.0" prefWidth="79.0" text="Oк" />
+                  <Button fx:id="btnNo" cancelButton="true" mnemonicParsing="false" onAction="#actionClose" prefHeight="27.0" prefWidth="82.0" text="Отмена">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <opaqueInsets>
+                  <Insets left="20.0" />
+               </opaqueInsets>
+            </VBox>
+            <VBox prefHeight="190.0" prefWidth="213.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="170.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="78.0" text="Index_X1:">
+                           <HBox.margin>
+                              <Insets left="15.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="textX1" prefHeight="27.0" prefWidth="135.0" promptText="index_x1">
+                           <HBox.margin>
+                              <Insets left="9.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="170.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="70.0" text="density_N:">
+                           <HBox.margin>
+                              <Insets left="15.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="textX2" prefHeight="27.0" prefWidth="128.0" promptText="density_N">
+                           <HBox.margin>
+                              <Insets left="7.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="4.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="170.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="71.0" text="degree:">
+                           <HBox.margin>
+                              <Insets left="15.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="textN" prefHeight="27.0" prefWidth="138.0" promptText="degree_n">
+                           <HBox.margin>
+                              <Insets left="14.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="4.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="10.0" right="5.0" top="10.0" />
+         </padding>
+      </HBox>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="74.0" text="Добавление новой точки">
+         <padding>
+            <Insets bottom="5.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
