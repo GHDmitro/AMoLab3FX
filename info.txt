@@ -1,0 +1,4 @@
+This project was based on Lagrange method of interpolation.
+You input some points, degree of interpolation, and absciss of initial point from which imterpoletion will be started into program.
+There are some technologies have been used for this project like JavaCore JavaFX.
+In the result, you receive based graphic and interpolation graphic from initial point, and dispersion in each point.
